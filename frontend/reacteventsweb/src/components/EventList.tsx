@@ -3,10 +3,18 @@ import { useNavigate } from "react-router-dom";
 import { useFetchEvents } from "../hooks/EventsHooks";
 import { Event } from "../types/event";
 
-const EventList = () => {
+type Args = {
+    date: string;
+  };
+
+const EventList = ({date}:Args) => {
     const nav = useNavigate();
     const { data, status, isSuccess } = useFetchEvents();
-    console.log(data);
+    let eventsFiltered: Event[] = [];
+    
+    if(data)
+       eventsFiltered = date ? data.filter((e) => new Date(e.startDate).toISOString().split("T")[0] === date) : data
+    
     return (
         <div>
         <table className="table table-hover">
@@ -18,12 +26,11 @@ const EventList = () => {
             </tr>
             </thead>
             <tbody>
-            {data &&
-                data.map((e: Event) => (
+            {eventsFiltered.map((e: Event) => (
                 <tr key={e.id} onClick={() => nav(`/event/${e.id}`)}>
                     <td>{e.title}</td>
-                    <td>{e.startDate}</td>
-                    <td>{e.endDate}</td>
+                    <td>{new Intl.DateTimeFormat('en-US', {dateStyle: 'medium', timeStyle: 'medium'}).format(new Date(e.startDate))}</td>
+                    <td>{new Intl.DateTimeFormat('en-US', {dateStyle: 'medium', timeStyle: 'medium'}).format(new Date(e.endDate))}</td>
                 </tr>
                 ))}
             </tbody>

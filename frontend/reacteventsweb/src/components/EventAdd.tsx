@@ -11,7 +11,7 @@ const EventAdd = () => {
     description: "",
     id: 0,
     endDate: "",
-    startDate: ""    
+    startDate: ""   
   };
 
   return (

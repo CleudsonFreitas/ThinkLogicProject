@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PlZRpEr/Mhf3zRkZUGkY+/JYQVPKhQx9R9iljUIj74XDY0gxsSDgcO5NhHHYXKDJHOTv06NMvoxWWQGUrqiumQ==",
+  "dgSpecHash": "J4Ly6Im6G8NLmFCrbVApoO8KmXvTjkYlXXE4RDRxHwwBsi2scD3lCn9ra4/q5Yk6FjNVarJSF1qoXZtpmAMeeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cleud\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cleud\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

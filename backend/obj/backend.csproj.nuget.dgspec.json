@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\backend.csproj": {}
+    "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\backend.csproj": {
+    "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\cleud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleud\\OneDrive\\Documentos\\Projects\\EventsApp\\backend\\obj\\",
+        "outputPath": "C:\\Users\\cleud\\OneDrive\\Documentos\\net_projects\\ThinkLogic\\ThinkLogicProject\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cleud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

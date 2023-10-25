@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 public class EventEntity
 {
     public int Id { get; set; }
