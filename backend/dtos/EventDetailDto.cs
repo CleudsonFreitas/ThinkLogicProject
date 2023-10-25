@@ -1,0 +1,1 @@
+public record EventDetailDto(int Id, string? Title, string? Location, string? Description, DateTime? StartDate, DateTime? EndDate);
